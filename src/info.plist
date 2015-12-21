@@ -19,6 +19,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>AA12A00A-5FE2-4B3A-A097-7AE9E1753D5E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C1B4C8BA-4178-4D5D-B85A-9DEEECA5959B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>azai91</string>
@@ -34,7 +45,7 @@
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -60,6 +71,31 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>3C794000-8A32-436F-82A1-5642A20CA50A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Google Drive</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C1B4C8BA-4178-4D5D-B85A-9DEEECA5959B</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -93,6 +129,11 @@
 			<real>10</real>
 		</dict>
 		<key>AA12A00A-5FE2-4B3A-A097-7AE9E1753D5E</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>C1B4C8BA-4178-4D5D-B85A-9DEEECA5959B</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>

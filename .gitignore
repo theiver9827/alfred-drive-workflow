@@ -1,2 +1,4 @@
-src/*.pyc
+**/*.pyc
 src/nohup.out
+**/.DS_Store
+src/logging.log
